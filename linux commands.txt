@@ -1,0 +1,72 @@
+Directory Commands
+pwd: Displays the current working directory.
+
+mkdir: Creates a new directory.
+mkdir new_directory
+rmdir: Deletes an empty directory.
+rmdir old_directory
+ls: Lists the contents of a directory.
+cd: Changes the current directory.
+cd /path/to/directory
+
+File Commands
+
+touch: Creates an empty file.
+touch newfile.txt
+cat: Displays the content of a file.
+cat file.txt
+rm: Removes a file.
+rm file.txt
+cp: Copies a file or directory.
+cp source.txt destination.txt
+mv: Moves or renames a file or directory.
+mv oldname.txt newname.txt
+
+File Content Commands
+
+head: Displays the first 10 lines of a file.
+head file.txt
+tail: Displays the last 10 lines of a file.
+tail file.txt
+
+tac: Displays the content of a file in reverse order.
+tac file.txt
+
+more: Displays the content of a file one screen at a time.
+more file.txt
+less: Similar to more, but with more features.
+less file.txt
+
+User Commands
+
+su: Switches to another user.
+
+su - username
+id: Displays user ID and group ID.
+id
+useradd: Adds a new user.
+sudo useradd newuser
+
+passwd: Changes the password for a user.
+
+passwd
+
+groupadd: Creates a new user group.
+sudo groupadd newgroup
+
+Networking Commands
+
+ip: Assigns an IP address or initializes an interface.
+ip addr show
+ssh: Creates a remote connection through the SSH protocol.
+
+ssh user@remote_host
+ping: Checks the connectivity between two nodes.
+
+ping google.com
+ifconfig: Displays network interfaces and IP addresses.
+
+ifconfig
+traceroute: Traces the route packets take to a network host.
+
+traceroute google.com
